@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
+html{
+    height: 100%;
+}
+body{
+    background: #8360c3;  
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3); 
+    background: linear-gradient(to right, #2ebf91, #8360c3); 
+    height: 100%;
+    min-height: 100%;
+}
+.card-box{
+    display: block;
+    background-color: #f8f9fa;
+    position: relative;
+    max-height: 1000px !important;
+    width: 700px;
+}
+.card-box-title{
+    background-color: #3F51B5;
+    color:#f8f9fa;
+    position: relative;
+    height: 3.4rem;
+    top:0;
+}
+.source-sans{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+
+}
+.flex-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+/*Default corrections*/
+h4{
+    margin-bottom:0px !important;
+}
+ul{
+    list-style: none;
+    padding-inline-start:0px;
+}
+.row{
+    margin:0px !important;
+}
+
+@media(max-width: 1200px){
+	 body{
+        height: 700px;
+    }
+}
+@media(max-width: 992px){
+    
+}
+@media(max-width: 768px){
+    body{
+        height: 600px;
+    }
+    h4{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width: 576px){
+    body{
+        height: 600px;
+    }
+     h4{
+        font-size: 1.1rem;
+    }
+}
